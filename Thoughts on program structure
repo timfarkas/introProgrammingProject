@@ -20,7 +20,7 @@
       	  3.	Data structure
           	⁃	How to implement: dictionary (fast, can also do dictionary within dictionary.) or lists (need index and search)?
           	⁃	How to store: Data need to be stored in local files (TXT or CSV?)
-	    2.	Functions (available methods by users)
+	  2.	Functions (available methods by users)
         	1.	Patient:
           	⁃	Log-in
           	⁃	Register 
