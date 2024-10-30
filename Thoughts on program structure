@@ -1,45 +1,45 @@
 1.	Basic Components:
     	1.	Class/entity (and data)
         	1.	User:
-            	1.	Admin :
-              	⁃	Have all the authorisation to view/edit/delete data
-              	⁃	But do no have much data
-            	2.	Patient:
-              	⁃	Personal information
-              	⁃	Mood record, Journal
-              	⁃	Assigned doctor
-              	⁃	Booking
-              	⁃	Consultation record
-            	3.	Doctor (MHWP)
-              	⁃	Calendar
-              	⁃	Patients
-              	⁃	Booking and record
+	            	1.	Admin :
+		              	⁃	Have all the authorisation to view/edit/delete data
+		              	⁃	But do no have much data
+	            	2.	Patient:
+		              	⁃	Personal information
+		              	⁃	Mood record, Journal
+		              	⁃	Assigned doctor
+		              	⁃	Booking
+		              	⁃	Consultation record
+	            	3.	Doctor (MHWP)
+		              	⁃	Calendar
+		              	⁃	Patients
+		              	⁃	Booking and record
         	2.	System Entity:
-          	⁃	Booking database: can also be part of the doctor’s data
-          	⁃	Exercises database: use online url or embedding in local data (but the total program size should not exceed 50MB)
+	          	⁃	Booking database: can also be part of the doctor’s data
+	          	⁃	Exercises database: use online url or embedding in local data (but the total program size should not exceed 50MB)
       	  3.	Data structure
-          	⁃	How to implement: dictionary (fast, can also do dictionary within dictionary.) or lists (need index and search)?
-          	⁃	How to store: Data need to be stored in local files (TXT or CSV?)
+	          	⁃	How to implement: dictionary (fast, can also do dictionary within dictionary.) or lists (need index and search)?
+	          	⁃	How to store: Data need to be stored in local files (TXT or CSV?)
 	  2.	Functions (available methods by users)
         	1.	Patient:
-          	⁃	Log-in
-          	⁃	Register 
-          	⁃	Update: personal information, mood record, journal
-          	⁃	Search and play exercises (with search function)
-          	⁃	Make//cancel appointments with doctor
-          	⁃	Receive notification upon confirmation of appointments
+	          	⁃	Log-in
+	          	⁃	Register 
+	          	⁃	Update: personal information, mood record, journal
+	          	⁃	Search and play exercises (with search function)
+	          	⁃	Make//cancel appointments with doctor
+	          	⁃	Receive notification upon confirmation of appointments
         	2.	Doctor:
-          	⁃	Log-in
-          	⁃	Register 
-          	⁃	Display calendar 
-          	⁃	Display patients information
-          	⁃	Approve/Cancel appointments
-          	⁃	Give consultation 
+	          	⁃	Log-in
+	          	⁃	Register 
+	          	⁃	Display calendar 
+	          	⁃	Display patients information
+	          	⁃	Approve/Cancel appointments
+	          	⁃	Give consultation 
         	3.	Admin: 
-          	⁃	Assign patient to doctors
-          	⁃	Edit information 
-          	⁃	Delete / disable users
-          	⁃	Display key summaries 
+	          	⁃	Assign patient to doctors
+	          	⁃	Edit information 
+	          	⁃	Delete / disable users
+	          	⁃	Display key summaries 
     	3.	Work flow (each user type has different work flow)
         	1.	Login and identify user type
         	2.	Display information and functions available to the user
@@ -52,9 +52,9 @@
     	1.	Advanced features: 
         	1.	Features that other teams from last year have: Consultation system, Prescription system, Covid check, Allergy check, User feedback, Holiday Break, Calculate health score, history health condition, etc.
         	2.	Our Possible choice:
-          	⁃	Recommendation system for exercise? like the auction system
-          	⁃	Alert? If patient doesn’t do well in mood record, need to notify doctor 
-          	⁃	Feedback & Rating? Performance evaluation of the doctors. If a doctor doesn’t do well, the patient might be assigned to a new one
+	          	⁃	Recommendation system for exercise? like the auction system
+	          	⁃	Alert? If patient doesn’t do well in mood record, need to notify doctor 
+	          	⁃	Feedback & Rating? Performance evaluation of the doctors. If a doctor doesn’t do well, the patient might be assigned to a new one
     	1.	Important principles to follow:
         	1.	Persistence (when restart the application, last change should be shown) - means data should be stored in a local file and called each time the program is running
         	2.	Integrity Check&Debug
